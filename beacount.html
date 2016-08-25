@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Count</title>
+</head>
+<body>
+<script type="text/javascript">
+  var count=0;
+  function countBs(sentence){
+  	var sentenceToString=String(sentence);
+  	  for(var i=0; i< sentenceToString.length;i++){
+  	  	 if(sentenceToString.charAt(i)=="B"){
+  	  	 	count++;
+  	  	 }
+  	  	
+  	  }
+        document.write("Number of B's is " + count);
+
+  }
+	 countBs("Barra Banjul Bansang"); 
+</script>
+</body>
+</html>
